@@ -12,7 +12,6 @@ import { IonBackButton, IonButton, IonButtons, IonContent, IonHeader, IonTitle, 
 })
 export class ClientDetailPage implements OnInit {
 
-  // This variable name must match the parameter name in app.routes.ts (:elementid)
   @Input() elementid?: string;
 
   constructor() { }
