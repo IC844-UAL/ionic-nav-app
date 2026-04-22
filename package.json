@@ -12,7 +12,8 @@
     "lint": "ng lint",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:component": "cypress run --component"
+    "cy:component": "cypress run --component",
+    "cy:e2e": "cypress run --e2e"
   },
   "private": true,
   "dependencies": {

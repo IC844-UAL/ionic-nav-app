@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 import { IonBackButton, IonButton, IonButtons, IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
 
 @Component({
@@ -14,9 +15,10 @@ export class ClientDetailPage implements OnInit {
 
   @Input() elementid?: string;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.elementid = this.elementid ?? this.route.snapshot.paramMap.get('elementid') ?? undefined;
     console.log("ID received via @Input:", this.elementid);
   }
 
