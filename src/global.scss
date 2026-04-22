@@ -42,3 +42,16 @@
     align-items: center;
     height: 100%; 
   }
+
+ion-toolbar {
+  --background: #ffffff;
+  --color: #0f172a;
+}
+
+ion-title {
+  font-weight: 700;
+}
+
+ion-content {
+  --background: #f6f7fb;
+}

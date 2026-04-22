@@ -1,0 +1,24 @@
+.products-list {
+  background: transparent;
+}
+
+.products-list ion-item {
+  --background: #ffffff;
+  --border-color: #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+  border: 1px solid #e2e8f0;
+}
+
+h2 {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+p {
+  color: #64748b;
+}
+
+.logout-wrapper {
+  margin-top: 1rem;
+}

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonTitle, IonToolbar } from '@ionic/angular/standalone';
+import { IonAvatar, IonContent, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonTitle, IonToolbar } from '@ionic/angular/standalone';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [IonContent, 
     IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, IonItem, IonList,
-    RouterModule, IonLabel, IonIcon]
+    RouterModule, IonLabel, IonIcon, IonAvatar]
 })
 export class ClientsPage {
 

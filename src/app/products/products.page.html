@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-list>
+  <ion-list class="products-list">
     <ion-item>
       <ion-label>
         <h2>Product 1</h2>
@@ -26,8 +26,8 @@
     </ion-item>
   </ion-list>
 
-  <div class="center-container">
-    <ion-button color="danger" expand="block" (click)="onLogout()">
+  <div class="logout-wrapper">
+    <ion-button color="danger" expand="block" size="large" (click)="onLogout()">
       <ion-icon slot="start" name="log-out-outline"></ion-icon>
       Cerrar Sesión
     </ion-button>

@@ -5,8 +5,11 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-list>
+  <ion-list class="clients-list">
     <ion-item [routerLink]="['/client-detail', '123']" button>
+      <ion-avatar slot="start">
+        <img src="https://i.pravatar.cc/120?img=12" alt="Juan Perez avatar" />
+      </ion-avatar>
       <ion-label>
         <h2>Juan Pérez</h2>
         <p>ID: 123</p>
@@ -14,10 +17,34 @@
     </ion-item>
 
     <ion-item [routerLink]="['/client-detail', '456']" button>
+      <ion-avatar slot="start">
+        <img src="https://i.pravatar.cc/120?img=47" alt="Maria Garcia avatar" />
+      </ion-avatar>
       <ion-label>
         <h2>María García</h2>
         <p>ID: 456</p>
       </ion-label>
     </ion-item>
+
+    <ion-item [routerLink]="['/client-detail', '789']" button>
+      <ion-avatar slot="start">
+        <img src="https://i.pravatar.cc/120?img=22" alt="Carlos Ruiz avatar" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Carlos Ruiz</h2>
+        <p>ID: 789</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item [routerLink]="['/client-detail', '321']" button>
+      <ion-avatar slot="start">
+        <img src="https://i.pravatar.cc/120?img=5" alt="Lucia Torres avatar" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Lucía Torres</h2>
+        <p>ID: 321</p>
+      </ion-label>
+    </ion-item>
+
   </ion-list>
 </ion-content>

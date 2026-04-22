@@ -1,0 +1,35 @@
+.login-content {
+  --background: #f8fafc;
+}
+
+.login-wrapper {
+  max-width: 420px;
+  margin: 18vh auto 0;
+  padding: 1.5rem;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.brand-badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  margin-bottom: 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #4f46e5;
+  background: #eef2ff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #0f172a;
+}
+
+p {
+  margin: 0.8rem 0 1.3rem;
+  color: #475569;
+}
