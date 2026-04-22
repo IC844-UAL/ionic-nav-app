@@ -3,8 +3,27 @@
     <div class="brand-badge">NavApp</div>
     <h1>Welcome back</h1>
     <p>Access your clients, reservations, and products in one place.</p>
-    <ion-button expand="block" size="large" (click)="onLogin()">
-      Continue
+
+    <ion-item lines="none" class="login-input">
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input
+        type="email"
+        placeholder="Enter your email"
+        [(ngModel)]="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item lines="none" class="login-input">
+      <ion-label position="stacked">Password</ion-label>
+      <ion-input
+        type="password"
+        placeholder="Enter your password"
+        [(ngModel)]="password">
+      </ion-input>
+    </ion-item>
+
+    <ion-button expand="block" size="large" (click)="onLogin()" [disabled]="!email || !password">
+      Login
     </ion-button>
   </div>
 </ion-content>
